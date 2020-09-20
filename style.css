@@ -195,7 +195,7 @@ textarea{
 }
 a,
 a:visited{
-    color: #c00;
+    color: #941C2F;
     text-decoration: none;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
@@ -634,7 +634,7 @@ span > object{
 /* Blockquote */
 blockquote{
     margin: 0 auto 1.5em;
-    border-left: 2px solid #c00;
+    border-left: 2px solid #941C2F;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -654,7 +654,7 @@ blockquote:before{
     content: "“ ";
     float: left;
     font: bold 4.0em/0.92 'Playfair Display', Georgia, Times, serif;
-    color: #c00;
+    color: #941C2F;
     height: 20px;
     width: 20px;
     margin: 0 0 0 6px;
@@ -802,7 +802,7 @@ figure.alignright figcaption{
     position: absolute;
 }
 .screen-reader-text:focus{
-    background: #c00;
+    background: #941C2F;
     color: #fff;
     clip: auto;
     padding: 0 20px;
@@ -989,7 +989,7 @@ figure.alignright figcaption{
 #nav .menu li a:focus,
 #nav .menu .menu-item-has-children.focus:after,
 #nav .menu .menu-item-has-children:hover:after{
-    color: #c00;
+    color: #941C2F;
 }
 #nav .menu li a,
 #nav .menu li:focus li a,
@@ -1000,7 +1000,7 @@ figure.alignright figcaption{
 #nav .menu > .current_page_ancestor > a,
 #nav .menu > .current-menu-item > a,
 #nav .menu > .current-menu-ancestor > a{
-    border-bottom: 2px solid #c00;
+    border-bottom: 2px solid #941C2F;
 }
 #nav .menu li ul{
     position: absolute;
@@ -1047,12 +1047,12 @@ figure.alignright figcaption{
     margin-top: -1px; /* Fix 1px border push down */
 }
 #nav .menu > li:last-child > a:hover{
-    border: 1px solid #c00;
+    border: 1px solid #941C2F;
 }
 #nav .menu > li.current_page_item:last-child a,
 #nav .menu > li.current_menu_item:last-child a{
     border: 1px solid #f4f4f4;
-    border-bottom: 2px solid #c00;
+    border-bottom: 2px solid #941C2F;
 }
 #nav .menu > li.menu-item-has-children:after{
     content: "\f107";
@@ -1068,12 +1068,12 @@ figure.alignright figcaption{
 #nav .menu li:hover li:hover a,
 #nav .menu li.current-menu-parent > ul > li.current-menu-item a{
     color: #fff;
-    background: #c00;
+    background: #941C2F;
 }
 #nav .menu li > ul:before{
     content: '';
     display: block;
-    border-color: transparent transparent #c00 transparent;
+    border-color: transparent transparent #941C2F transparent;
     border-style: solid;
     border-width: 6px;
     position: absolute;
@@ -1088,7 +1088,7 @@ figure.alignright figcaption{
     height: 2px;
     position: relative;
     margin-top: -2px;
-    background: #c00;
+    background: #941C2F;
 }
 #nav #menu-toggle{
     cursor: pointer;
@@ -1289,7 +1289,7 @@ p.post-thumbnail-description a:hover{
     text-decoration: none;
 }
 .entry-title a:hover{
-    color: #c00;
+    color: #941C2F;
 }
 /**
  * 6.3 Entry Meta
@@ -1307,7 +1307,7 @@ p.post-thumbnail-description a:hover{
     text-decoration: none;
 }
 .entry-meta a:hover{
-    color: #c00;
+    color: #941C2F;
 }
 .entry-categories,
 .entry-tags,
@@ -1459,7 +1459,7 @@ p.post-thumbnail-description a:hover{
     margin: 0 auto 1.5em;
 }
 .post-edit-link:hover{
-    color: #c00;
+    color: #941C2F;
 }
 /* Media Elements */
 .hentry .mejs-container{
@@ -1474,7 +1474,7 @@ p.post-thumbnail-description a:hover{
     background: #fff;
 }
 .hentry .mejs-controls .mejs-time-rail .mejs-time-current{
-    background: #c00;
+    background: #941C2F;
 }
 .hentry .mejs-controls .mejs-time-rail .mejs-time-total,
 .hentry .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total{
@@ -1512,7 +1512,7 @@ p.post-thumbnail-description a:hover{
     color: #fff;
 }
 .page-links a:hover{
-    background: #c00;
+    background: #941C2F;
 }
 .page-links > .page-links-title{
     margin: 0;
@@ -1728,7 +1728,7 @@ h2:hover a.anchor{
 .post-navigation a:hover,
 .image-navigation .previous-image:hover,
 .image-navigation .next-image:hover{
-    background: #c00;
+    background: #941C2F;
 }
 .image-navigation a,
 .post-navigation .meta-nav{
@@ -1770,7 +1770,7 @@ h2:hover a.anchor{
 }
 .paging-navigation .page-numbers.current,
 .paging-navigation a:hover{
-    background: #c00;
+    background: #941C2F;
     color: #fff;
 }
 .sticky{
@@ -1827,9 +1827,9 @@ h2:hover a.anchor{
     border: 1px solid #eee;
 }
 .author-link a:hover{
-    background: #c00;
+    background: #941C2F;
     color: #fff;
-    border: 1px solid #c00;
+    border: 1px solid #941C2F;
 }
 .author-description{
     position: relative;
@@ -1898,7 +1898,7 @@ h2:hover a.anchor{
 }
 .comment-navigation a:hover{
     color: #fff;
-    background: #c00;
+    background: #941C2F;
     text-decoration: none;
 }
 /* Comments */
@@ -2013,7 +2013,7 @@ h2:hover a.anchor{
     margin-left: 8px;
 }
 .comment-edit-link:hover{
-    color: #c00;
+    color: #941C2F;
 }
 .comment-content{
     float: left;
@@ -2292,7 +2292,7 @@ div.bigContact .ui-widget-header .ui-state-focus{
     border: 0 none;
     background: none;
     font-weight: bold;
-    color: #c00;
+    color: #941C2F;
 }
 div.bigContact .ui-state-hover a,
 div.bigContact .ui-state-hover a:hover,
@@ -2302,20 +2302,20 @@ div.bigContact .ui-state-focus a,
 div.bigContact .ui-state-focus a:hover,
 div.bigContact .ui-state-focus a:link,
 div.bigContact .ui-state-focus a:visited{
-    color: #c00;
+    color: #941C2F;
     text-decoration: none;
 }
 div.bigContact .ui-state-active,
 div.bigContact .ui-widget-content .ui-state-active,
 div.bigContact .ui-widget-header .ui-state-active{
-    background: #c00;
+    background: #941C2F;
     font-weight: bold;
     color: #fff;
 }
 div.bigContact .ui-state-active a,
 div.bigContact .ui-state-active a:link,
 div.bigContact .ui-state-active a:visited{
-    color: #c00;
+    color: #941C2F;
     text-decoration: none;
 }
 div.bigContact .ui-state-highlight,
@@ -2353,7 +2353,7 @@ div.bigContact .ui-slider-handle:active{
     cursor: -webkit-grabbing;
 }
 div.bigContact .ui-slider-handle.ui-state-default{
-    background: #c00;
+    background: #941C2F;
     width: 1em;
     height: 1em;
     top: -0.2em;
@@ -2499,12 +2499,12 @@ div.bigContact .ui-timepicker-div .ui_tpicker_time_label{
     text-align: center;
 }
 .widget_calendar tbody a{
-    background-color: #c00;
+    background-color: #941C2F;
     color: #fff;
     display: block;
 }
 .widget_calendar tbody a:hover{
-    background-color: #c00;
+    background-color: #941C2F;
 }
 .widget_calendar tbody a:hover{
     color: #fff;
@@ -2749,7 +2749,7 @@ div.bigContact .ui-timepicker-div .ui_tpicker_time_label{
     #nav .menu > li.current_page_item:last-child a,
     #nav .menu > li.current_menu_item:last-child a,
     #nav .menu > li:last-child:hover a{
-        border: 1px solid #c00;
+        border: 1px solid #941C2F;
     }
     #nav .menu .menu-item-has-children:after{
         position: absolute;
@@ -2771,7 +2771,7 @@ div.bigContact .ui-timepicker-div .ui_tpicker_time_label{
     #nav .menu > .current-menu-item > a{
         border-color: #fff;
         color: #fff;
-        background: #c00;
+        background: #941C2F;
     }
     p.post-thumbnail-description{
         position: relative;
