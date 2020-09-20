@@ -276,7 +276,7 @@ input[type="submit"]{
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-    box-shadow: 0 5px #900;
+    box-shadow: 0 5px #400;
     -webkit-transition: none;
     -moz-transition: none;
     transition: none;
@@ -314,7 +314,7 @@ input[type="reset"]:hover,
 input[type="reset"]:focus,
 input[type="submit"]:hover,
 input[type="submit"]:focus{
-    box-shadow: 0 3px #900;
+    box-shadow: 0 3px #400;
     top: 2px;
     color: #fff;
     text-decoration: none;
