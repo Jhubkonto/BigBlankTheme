@@ -33,7 +33,7 @@ $footer_text = $options['footer_text'];
         <?php if ($footer_text) : ?>
             <span id="footer-text"><?php echo $footer_text; ?></span>
         <?php endif; ?>
-        <div id="bigemployee"><?php _e('theme by', 'bigblank'); ?> <a href="<?php echo esc_url(__('http://bigemployee.com/', 'bigblank')); ?>"><?php printf(__('%s', 'bigblank'), 'Big Employee'); ?></a></div>
+        <div id="bigemployee"><?php _e('With help from', 'bigblank'); ?> <a href="<?php echo esc_url(__('http://bigemployee.com/', 'bigblank')); ?>"><?php printf(__('%s', 'bigblank'), 'Big Employee'); ?></a></div>
     </div><!-- #site-info -->
 </footer><!-- #footer -->
 <?php wp_footer(); ?>
