@@ -2536,6 +2536,7 @@ div.bigContact .ui-timepicker-div .ui_tpicker_time_label{
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    margin-bottom: 1.5em;
 }
 
 #footer{
@@ -2557,7 +2558,6 @@ div.bigContact .ui-timepicker-div .ui_tpicker_time_label{
     padding-top: 48px;
 }
 #footer-nav,
-#site-info,
 .social-media{
     float: left;
     width: 100%;
@@ -2569,6 +2569,10 @@ div.bigContact .ui-timepicker-div .ui_tpicker_time_label{
 #site-info{
     width: 400px;
     font-size: 0.8em;
+    float: left;
+    clear: both;
+    text-align: center;
+    position: relative;
 }
 #footer-nav ul{
     display: inline-block;
