@@ -2675,6 +2675,14 @@ div.bigContact .ui-timepicker-div .ui_tpicker_time_label{
         float: none;
         margin: 0 5px;
     }
+
+    #footer-container{
+        flex-direction: column;
+    }
+
+    #site-info{
+        width: 100%;
+    }
 }
 @media screen and (max-width: 640px){
     .content-sidebar #main,
