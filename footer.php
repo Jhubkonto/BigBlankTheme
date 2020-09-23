@@ -20,21 +20,26 @@ $footer_text = $options['footer_text'];
     // Social media links (social-links.php)
     get_template_part('social', 'links');
     ?>
-    <div id="site-info">
-        <?php if ($phone) : ?>
-            <a href="/contact/" id="footer-tel" class="tel"><i class="fa fa-phone"></i><?php echo $phone; ?></a>
-        <?php endif; ?>
-        <?php if ($address) : ?>
-            <a href="http://maps.google.com/maps?daddr=<?php echo urlencode($address); ?>&amp;saddr=" id="footer-address" class="address"><i class="fa fa-map-marker"></i><?php echo $address; ?></a>
-        <?php endif; ?>
-        <?php if ($footer_copyright) : ?>
-            <span id="copyright"><?php echo $footer_copyright; ?></span>
-        <?php endif; ?>
-        <?php if ($footer_text) : ?>
-            <span id="footer-text"><?php echo $footer_text; ?></span>
-        <?php endif; ?>
-        <div id="bigemployee"><?php _e('With help from', 'bigblank'); ?> <a href="<?php echo esc_url(__('http://bigemployee.com/', 'bigblank')); ?>"><?php printf(__('%s', 'bigblank'), 'Big Employee'); ?></a></div>
-    </div><!-- #site-info -->
+    <div id="footer-container">
+        <div id="site-info">
+            <?php if ($phone) : ?>
+                <a href="/contact/" id="footer-tel" class="tel"><i class="fa fa-phone"></i><?php echo $phone; ?></a>
+            <?php endif; ?>
+            <?php if ($address) : ?>
+                <a href="http://maps.google.com/maps?daddr=<?php echo urlencode($address); ?>&amp;saddr=" id="footer-address" class="address"><i class="fa fa-map-marker"></i><?php echo $address; ?></a>
+            <?php endif; ?>
+            <?php if ($footer_copyright) : ?>
+                <span id="copyright"><?php echo $footer_copyright; ?></span>
+            <?php endif; ?>
+            <?php if ($footer_text) : ?>
+                <span id="footer-text"><?php echo $footer_text; ?></span>
+            <?php endif; ?>
+            <div id="bigemployee"><?php _e('With help from', 'bigblank'); ?> <a href="<?php echo esc_url(__('http://bigemployee.com/', 'bigblank')); ?>"><?php printf(__('%s', 'bigblank'), 'Big Employee'); ?></a></div>
+        </div><!-- #site-info -->
+        <div id="lang-selector">
+            <?php echo do_shortcode('[language-switcher]'); ?>
+        </div>
+    </div>
 </footer><!-- #footer -->
 <?php wp_footer(); ?>
 <!-- @attribution: Based on Big Blank Theme for WordPress by BigEmployee.com -->
