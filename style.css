@@ -2534,12 +2534,8 @@ div.bigContact .ui-timepicker-div .ui_tpicker_time_label{
 #footer-container{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
-}
-
-#footer-container #site-info{
-    flex-grow: 2;
 }
 
 #footer{
