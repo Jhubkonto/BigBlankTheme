@@ -2567,6 +2567,7 @@ div.bigContact .ui-timepicker-div .ui_tpicker_time_label{
     margin-bottom: 1.5em;
 }
 #site-info{
+    width: 400px;
     font-size: 0.8em;
 }
 #footer-nav ul{
