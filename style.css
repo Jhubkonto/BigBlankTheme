@@ -2491,11 +2491,16 @@ div.bigContact .ui-timepicker-div .ui_tpicker_time_label{
     padding-right: 5px;
     text-align: right;
 }
-.call2action{
+#call2action{
     text-align: center;
+    padding: 5em 0px;
+    max-width: 1600px;
+    margin: 10px auto;
+    border-radius: 4px;
+    box-shadow: 0 5px 7px 2px rgba(0,0,0,0.2);
 }
-.call2action .button{
-    margin-right: 0;
+#call2action form{
+    margin: 0 auto;
 }
 /**
  * 8.0 Footer
