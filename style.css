@@ -856,6 +856,7 @@ figure.alignright figcaption{
     top: 0;
     background-color: white;
     box-shadow: 0 5px 7px -7px rgba(0,0,0,0.2);
+    z-index: 4;
 
 }
 #header,
