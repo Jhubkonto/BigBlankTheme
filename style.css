@@ -220,7 +220,7 @@ h6{
     color: #444;
     text-rendering: optimizeLegibility;
     margin: 1em auto 0.5em;
-    max-width: 580px;
+    max-width: 1100px;
     text-align: left;
 }
 h1{
@@ -1161,7 +1161,7 @@ figure.alignright figcaption{
 .team-member,
 #comments{
     margin: 0 auto 1.5em;
-    max-width: 580px;
+    max-width: 1100px;
     text-align: left;
 }
 .site-content table,
