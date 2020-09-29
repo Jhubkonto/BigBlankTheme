@@ -225,7 +225,7 @@ input[type="reset"],
 input[type="submit"]{
     border: none;
     font-family: inherit;
-    font-size: inherit;
+    font-size: 1.2em;
     background: #941C2F;
     color: #fff;
     cursor: pointer;
@@ -257,7 +257,6 @@ input[type="reset"]:before,
 input[type="submit"]:before{
     font-family: 'FontAwesome';
     float: right;
-    speak: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
