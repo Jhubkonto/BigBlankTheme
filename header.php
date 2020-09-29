@@ -23,6 +23,7 @@
         <![endif]-->
     </head>
     <body <?php body_class(); ?>>
+        <div id="header-container">
         <header id="header" class="site-header" role="banner">
             <a id="logo" href="<?php echo home_url(); ?>" title="<?php _e('Home', 'bigblank'); ?>" rel="home">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="<?php bloginfo('name'); ?> logo" width="200" height="29"/>
@@ -33,4 +34,6 @@
                 <a class="screen-reader-text skip-link" href="#content"><?php _e('Skip to content', 'bigblank'); ?></a>
                 <?php bigblank_main_menu(); ?>
             </nav>
-        </header><!-- #header -->
+        </header>
+        </div>
+        <!-- #header -->
