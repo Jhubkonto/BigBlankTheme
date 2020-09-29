@@ -1244,6 +1244,11 @@ figure.alignright img{
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+figure.wp-block-image img{
+    width:100%;
+    max-width:1600px;
+}
 /**
  * 6.1 Post Thumbnail
  * -----------------------------------------------------------------------------
