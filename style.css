@@ -940,8 +940,8 @@ figure.alignright figcaption{
 }
 #logo{
     float:  left;
-    width: 200px;
-    padding: 10px 7px 6px;
+    width: 150px;
+    padding: 5px 10px 5px;
     overflow: hidden;
     position: relative;
 }
