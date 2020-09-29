@@ -846,7 +846,7 @@ figure.alignright figcaption{
 }
 #header{
     padding: 10px 0;
-    box-shadow: 0 5px 7px -7px rgba(0,0,0,0.2);
+    
     text-align: center;
 }
 #header-container
@@ -854,6 +854,9 @@ figure.alignright figcaption{
     position: fixed;
     width: 100%;
     top: 0;
+    background-color: white;
+    box-shadow: 0 5px 7px -7px rgba(0,0,0,0.2);
+
 }
 #header,
 #footer,
