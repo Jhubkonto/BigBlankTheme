@@ -810,6 +810,12 @@ figure.alignright figcaption{
     text-align: center;
     font-size: 1.15em;
 }
+
+#header .small {
+    padding: 10px 0;
+    font-size: 1em;
+}
+
 #header-container
 {
     position: fixed;

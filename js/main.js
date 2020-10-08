@@ -2,7 +2,16 @@
 (function($, window, document) {
     //'use strict'; // I ♥ JS
 
-    console.log("This is a test log");
+    // Minimize Menu on Scroll
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.getElementById("header").classList.add('small');
+    } else {
+        document.getElementById("header").classList.remove('small');
+    }
+    } 
 
     // check devices with device.js
     var isMobile, isTablet;
