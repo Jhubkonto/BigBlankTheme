@@ -20,7 +20,7 @@
     }
     
     function addClass(ele, cls) {
-        if (!this.hasClass(ele, cls)) ele.className += " " + cls;
+        if (!hasClass(ele, cls)) ele.className += " " + cls;
     }
     
     function removeClass(ele, cls) {
