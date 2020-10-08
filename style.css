@@ -809,6 +809,7 @@ figure.alignright figcaption{
     padding: 20px 0;
     text-align: center;
     font-size: 1.15em;
+    transition: all 0.5s;
 }
 
 .small-header {
