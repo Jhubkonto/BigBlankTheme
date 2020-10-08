@@ -2,6 +2,8 @@
 (function($, window, document) {
     //'use strict'; // I ♥ JS
 
+    console.log("This is a test log");
+
     // check devices with device.js
     var isMobile, isTablet;
     if (typeof device === 'object') {
