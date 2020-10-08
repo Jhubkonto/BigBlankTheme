@@ -812,8 +812,8 @@ figure.alignright figcaption{
 }
 
 .small-header {
-    padding: 10px 0;
-    font-size: 1em;
+    padding: 10px 0 !important;
+    font-size: 1em !important;
 }
 
 #header-container
