@@ -9,9 +9,9 @@
         console.log(document.documentElement.scrollTop);
         var header = document.getElementById("header");
         if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-            addClass(header, 'small');
+            addClass(header, 'small-header');
         } else {
-            removeClass(header, 'small');
+            removeClass(header, 'small-header');
         }
     }
 
