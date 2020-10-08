@@ -6,11 +6,12 @@
     window.onscroll = function() {scrollFunction()};
 
     function scrollFunction() {
-    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-        document.getElementById("header").classList.add('small');
-    } else {
-        document.getElementById("header").classList.remove('small');
-    }
+        console.log(document.documentElement.scrollTop);
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            document.getElementById("header").classList.add('small');
+        } else {
+            document.getElementById("header").classList.remove('small');
+        }
     } 
 
     // check devices with device.js
