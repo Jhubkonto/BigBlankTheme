@@ -6,7 +6,6 @@
     window.onscroll = function() {scrollFunction()};
 
     function scrollFunction() {
-        console.log(document.documentElement.scrollTop);
         var header = document.getElementById("header");
         if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
             addClass(header, 'small-header');
