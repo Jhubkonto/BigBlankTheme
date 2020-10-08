@@ -7,12 +7,28 @@
 
     function scrollFunction() {
         console.log(document.documentElement.scrollTop);
+        var header = document.getElementById("header");
         if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-            document.getElementById("header").classList.add('small');
+            addClass(header, 'small');
         } else {
-            document.getElementById("header").classList.remove('small');
+            removeClass(header, 'small');
         }
-    } 
+    }
+
+    function hasClass(ele, cls) {
+        return ele.className.match(new RegExp('(\\s|^)' + cls + '(\\s|$)'));
+    }
+    
+    function addClass(ele, cls) {
+        if (!this.hasClass(ele, cls)) ele.className += " " + cls;
+    }
+    
+    function removeClass(ele, cls) {
+        if (hasClass(ele, cls)) {
+            var reg = new RegExp('(\\s|^)' + cls + '(\\s|$)');
+            ele.className = ele.className.replace(reg, ' ');
+        }
+    }    
 
     // check devices with device.js
     var isMobile, isTablet;
