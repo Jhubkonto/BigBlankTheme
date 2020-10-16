@@ -248,7 +248,6 @@ input[type="submit"]{
     transition: all 0.3s;
     -webkit-transition: none;
     -moz-transition: none;
-    transition: none;
     border-radius: 3px;
 }
 
@@ -294,6 +293,7 @@ input[type="submit"]:focus{
     text-decoration: none;
     color: #941C2F;
     background: #fff;
+    border: 1px solid #941C2F;
 }
 
 button[disabled],
