@@ -293,7 +293,7 @@ input[type="submit"]:focus{
     text-decoration: none;
     color: #941C2F;
     background: #fff;
-    border: 1px solid #941C2F;
+    outline: 1px solid #941C2F;
 }
 
 button[disabled],
