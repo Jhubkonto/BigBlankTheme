@@ -37,7 +37,9 @@ $footer_text = $options['footer_text'];
             <div id="bigemployee"><?php _e('With help from', 'bigblank'); ?> <a href="<?php echo esc_url(__('http://bigemployee.com/', 'bigblank')); ?>"><?php printf(__('%s', 'bigblank'), 'Big Employee'); ?></a></div>
         </div><!-- #site-info -->
         <div id="lang-selector">
+            <ul>
             <?php pll_the_languages( array( 'show_flags' => 1,'show_names' => 0 ) ); ?>
+            </ul>
         </div>
     </div>
 </footer><!-- #footer -->
