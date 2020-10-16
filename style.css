@@ -2871,5 +2871,6 @@ div.bigContact .ui-timepicker-div .ui_tpicker_time_label{
 
 #lang-selector ul
 {
+    margin: 0;
     list-style: none;
 }
