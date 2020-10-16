@@ -291,9 +291,9 @@ input[type="submit"]:hover,
 input[type="submit"]:focus{
     color: #fff;
     text-decoration: none;
-    color: #941C2F;
-    background: #fff;
-    outline: 1px solid #941C2F;
+    color: #FFF;
+    background: #941C2F;
+    filter: brightness(1.75);
 }
 
 button[disabled],
