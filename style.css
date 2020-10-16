@@ -292,8 +292,7 @@ input[type="submit"]:focus{
     color: #fff;
     text-decoration: none;
     color: #FFF;
-    background: #941C2F;
-    filter: brightness(1.75);
+    background: #a3c6c4;
 }
 
 button[disabled],
