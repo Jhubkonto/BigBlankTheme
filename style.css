@@ -222,9 +222,9 @@ h6{
  * 2.0 Repeatable Patterns
  * -----------------------------------------------------------------------------
  */
+#nav .menu > li:last-child > a,
 button,
 .button,
-
 .button:visited,
 input[type="button"],
 input[type="reset"],
@@ -1022,17 +1022,6 @@ figure.alignright figcaption{
 }
 #nav .menu > li:first-child{
     margin-left: 0;
-}
-#nav .menu > li:last-child{
-    margin-right: 0;
-}
-#nav .menu > li:last-child > a{
-    padding: 0 10px;
-    border: 1px solid #444;
-    margin-top: -1px; /* Fix 1px border push down */
-}
-#nav .menu > li:last-child > a:hover{
-    border: 1px solid #941C2F;
 }
 #nav .menu > li.current_page_item:last-child a,
 #nav .menu > li.current_menu_item:last-child a{
