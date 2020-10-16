@@ -38,7 +38,7 @@ $footer_text = $options['footer_text'];
         </div><!-- #site-info -->
         <div id="lang-selector">
             <ul>
-            <?php pll_the_languages( array( 'show_flags' => 1,'show_names' => 0 ) ); ?>
+            <?php pll_the_languages( array( 'show_flags' => 1,'show_names' => 1 ) ); ?>
             </ul>
         </div>
     </div>
