@@ -881,6 +881,7 @@ figure.alignright figcaption{
     width: 100%;
 }
 .site-content{
+    margin-top: 100px;
     -ms-word-wrap: break-word;
     word-wrap: break-word;
 }
